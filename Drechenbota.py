@@ -7,7 +7,6 @@ import ffmpeg
 from discord import FFmpegPCMAudio
 from discord.utils import get
 import asyncio
-from mutagen.mp3 import MP3
 
 load_dotenv()
 token = os.getenv("DISCORD_TOKEN")
