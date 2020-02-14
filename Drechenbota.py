@@ -7,10 +7,7 @@ import ffmpeg
 from discord import FFmpegPCMAudio
 from discord.utils import get
 import asyncio
-<<<<<<< HEAD
 #test
-=======
->>>>>>> 54f799b73a2aedc2deccc2ab6bf0850a9898d747
 load_dotenv()
 token = os.getenv("DISCORD_TOKEN")
 bot = commands.Bot(command_prefix="#")
